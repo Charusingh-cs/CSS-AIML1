@@ -1,47 +1,15 @@
-/* p{
-    color:blueviolet;
-    background:white;
-    text-align: center;
-} */
+.box{
+    padding:100px;
+    width:30px;
+    height:400px;
 
-/* .p{
-    color:green;
-    background:aqua;
 }
-
-#jk{
-    font-size:100px ;
+.box1{
+    background-color:yellow;
 }
-/* #box2{
-    height:200 px;
-    width: 200px;
-    background-color:blueviolet;
-    padding:20px;
-    border:1px;
-    margin:100px;
-
-} */
-/* div{
-
-    height:200 px;
-    width: 200px;
-    background-color:white;
-    padding:10px;
-    border:1px;
-    margin:100px;
-
-} */
- h4{
-    color:purple;
-    text-align:center
+.box2{
+    background-color:pink;
 }
-p{
-    color:red;
-}
-div{
-    border:2px solid black;
-    margin:50px;
-    padding:20px;
-    background-color:white;
-    table 
+.box3{
+    background-color:azure
 }
