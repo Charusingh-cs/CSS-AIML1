@@ -9,10 +9,10 @@
     width:100px;
     background-color:yellow;
     border:solid black;
-    flex-direction:column reverse;
-    flex-wrap:wrap;
+    flex-direction:row-reverse;
+    flex-wrap: no wrap;
     flex-flow:column wrap;
-
-
+    display:flex;
+    justify-content:center
 
 }
