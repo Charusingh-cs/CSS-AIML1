@@ -1,0 +1,11 @@
+.highlight{
+    background-color: yellow;
+    width: 400px;
+    /* height:200px; */
+    
+    border:25px solid blue;
+    text-align: center ;
+    padding:20px;
+    margin: 30px;
+
+}
