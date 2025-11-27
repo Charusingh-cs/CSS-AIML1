@@ -7,12 +7,27 @@
     margin-right:10px;
 
 }
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    flex-wrap:wrap-reverse;
+    background-color: blanchedalmond;
+    width:1200px;
+    height:800px;
+    align-self: center;
+
+}
 .box1{
     display:inline-block;
     margin:10px;
-    width:100px;
+    width:200px;
     height:400px;
     text-align: center;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+     */
 
 }
 .box2{
