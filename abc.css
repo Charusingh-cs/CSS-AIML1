@@ -1,0 +1,20 @@
+body {
+    background-color: pink;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.float-img {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    border: 2px solid black;
+}
+
+.footer {
+    clear: both;               /* forces footer below floated image */
+    margin-top: 20px;
+    padding: 10px;
+    background: #f7f7f7;
+    border: 1px solid black;
+}
