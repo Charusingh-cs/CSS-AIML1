@@ -7,7 +7,6 @@
     justify-items:center;
     align-items:start;
     justify-content:center;
-    
     display: grid;
 
     /* grid-template-areas:
@@ -23,11 +22,16 @@
     color: white;
     text-align: center;
     align-content:center ;
+
     
     
     
     /* height:100px;
     width:200px; */
+}
+media(maxwidth:768px){
+    background-color:red;
+
 }
 
 /* .item1 {
@@ -43,5 +47,5 @@
 }
 
 .item4 {
-    grid-area: footer;
-} */
+    grid-area: foot
+>
