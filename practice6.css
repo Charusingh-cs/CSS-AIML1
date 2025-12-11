@@ -1,0 +1,59 @@
+header{
+    background-color: black;
+    text-align: center;
+
+
+
+}
+header h1 {
+    color:White;
+}
+.max{
+    width:270px;
+    height:600px;
+    background-color:grey;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+
+}
+    
+    
+.container{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.product-card{
+    text-align:center;
+    background-color: grey;
+    text-align:center;
+    height:450px;
+    width:300px;
+    margin-top: 30px;
+    margin:0;
+}
+.product-card img{
+    
+    margin: 20px 0;
+
+
+}
+
+.price{
+    font-weight: bold;
+    color: green;
+}
+.old-price{
+    text-decoration: line-through;
+    color:gray;
+}
+.btn{
+    background:blue;
+    height:30px;
+    width:250px;
+    margin-left:auto;
+    margin-right:auto;
+    cursor:button
+}
