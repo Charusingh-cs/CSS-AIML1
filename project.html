@@ -1,0 +1,310 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="app">
+
+
+    <aside class="sidebar">
+        <div class="logo">Spotify</div>
+        <ul class="menu">
+            <li class="active">🏠 Home</li>
+            <li>🔍 Search</li>
+            <li>📚 Library</li>
+        </ul>
+    </aside>
+
+ 
+    <main class="main">
+
+    
+        <header class="topbar">
+            <input type="text" placeholder="What do you want to play?">
+            <div class="profile">🙂</div>
+        </header>
+
+  
+        <div class="filters">
+            <button class="filter active">All</button>
+            <button class="filter">Music</button>
+            <button class="filter">Podcasts</button>
+            <button class="filter">Audiobooks</button>
+        </div>
+
+     
+        <div class="top-cards">
+            <div class="top-card">
+                <img src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2025/06/spotify-discover-weekly-logo.jpg">
+                <span>Discover Weekly</span>
+            </div>
+            <div class="top-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1gsrSicEYtE7xQX61e6Zw69p7ugE7cpMIpg&s">
+                <span>The Bill Simmons Podcast</span>
+            </div>
+            <div class="top-card">
+                <img src="https://i.scdn.co/image/ab67616d0000b2733ff75c6610b88d77d8eb5612">
+                <span>Alex + Sam</span>
+            </div>
+            <div class="top-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-xQcAIFvN7fZfdHFJ3JN4nJMhSuz1ym1SSg&s">
+                <span>daylist</span>
+            </div>
+            <div class="top-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDohBvWCYrgP5SimtqjxuhGOjKjCgZWdzt2g&s">
+                <span>Soundscapes for Gaming</span>
+            </div>
+            <div class="top-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9QNqKtBsgpNdyfHKaQdTYGWtpTj7fB1Fkzg&s">
+                <span>DJ</span>
+            </div>
+            <div class="top-card">
+                <img src="https://i.scdn.co/image/ab67706f0000000250c7781777a3b0662fce5426">
+                <span>Classic Road Trip Songs</span>
+            </div>
+        </div>
+
+        <section>
+            <h2>Jump back in</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="https://images.genius.com/461d0e2f20b7b7faa9b5929d2d5e0f0d.640x640x1.jpg">
+                    <p>Today's Top Hits</p>
+                </div>
+                <div class="card">
+                    <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8409a5ca121dec16d90a6f5820">
+                    <p>RapCaviar</p>
+                </div>
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzDBGB83ARfGOCaRZCNWBoEpim8sI1wCGBzg&s">
+                    <p>Discover Weekly</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b2734e8933f74fd2a8dcfdebaa25">
+                    <p>Viral Hits</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>More of what you like</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f000000029df496c351cce316e10052de">
+                    <p>Work From Home</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f000000026bca23d2861f31fef9d7b99e">
+                    <p>Country Cookout</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f000000026b30471dcc036d254dcc8041">
+                    <p>Wake Up Happy</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f000000027d9ac9cc682ab4c513ae6319">
+                    <p>80s Road Trip</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+
+<footer class="player">
+    <div class="song">
+        <strong>Radio</strong>
+        <span>Decora</span>
+    </div>
+
+    <div class="controls">
+        ⏮ ▶ ⏭
+    </div>
+
+    <div class="volume">
+        🔊 ━━━
+    </div>
+</footer>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Spotify Clone</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Inter', sans-serif;
+    }
+    body{
+      background:#000;
+      color:#fff;
+    }
+    .app{
+      display:flex;
+      height:100vh;
+    }
+
+    /* Sidebar */
+    .sidebar{
+      width:240px;
+      background:#121212;
+      padding:20px;
+    }
+    .sidebar h3{
+      font-size:14px;
+      margin-bottom:15px;
+      color:#b3b3b3;
+    }
+    .menu a{
+      display:block;
+      color:#b3b3b3;
+      text-decoration:none;
+      margin-bottom:12px;
+      font-size:14px;
+    }
+    .menu a:hover{
+      color:#fff;
+    }
+
+    /* Main */
+    .main{
+      flex:1;
+      background:#181818;
+      padding:20px 30px;
+      overflow-y:auto;
+    }
+    .search{
+      background:#242424;
+      padding:10px 15px;
+      border-radius:20px;
+      margin-bottom:25px;
+      font-size:14px;
+      color:#b3b3b3;
+    }
+
+    h2{
+      margin:20px 0 15px;
+      font-size:20px;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fill,minmax(160px,1fr));
+      gap:20px;
+    }
+    .card{
+      background:#242424;
+      border-radius:10px;
+      padding:15px;
+      transition:0.3s;
+    }
+    .card:hover{
+      background:#2e2e2e;
+    }
+    .card img{
+      width:100%;
+      border-radius:8px;
+      margin-bottom:10px;
+    }
+    .card h4{
+      font-size:16px;
+      margin-bottom:5px;
+    }
+    .card p{
+      font-size:13px;
+      color:#b3b3b3;
+    }
+
+    /* Player */
+    .player{
+      position:fixed;
+      bottom:0;
+      left:0;
+      width:100%;
+      height:80px;
+      background:#181818;
+      border-top:1px solid #282828;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#b3b3b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h3>Your Library</h3>
+      <div class="menu">
+        <a href="#">Playlists</a>
+        <a href="#">Podcasts</a>
+        <a href="#">Artists</a>
+        <a href="#">Liked Songs</a>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+      <div class="search">What do you want to play?</div>
+
+      <h2>Popular Radio</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en" />
+          <h4>Arijit Singh</h4>
+          <p>Radio • Popular hits</p>
+        </div>
+        <div class="card">
+          <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/1mYsTxnqsietFxj1OgoGbG/fr" />
+          <h4>A.R. Rahman</h4>
+          <p>Radio • Melodious</p>
+        </div>
+        <div class="card">
+          <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4fEkbug6kZzzJ8eYX6Kbbp/en" />
+          <h4>KK</h4>
+          <p>Radio • Classics</p>
+        </div>
+        <div class="card">
+          <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2FKWNmZWDBZR4dE5KX4plR/de" />
+          <h4>Diljit Dosanjh</h4>
+          <p>Radio • Punjabi</p>
+        </div>
+      </div>
+
+      <h2>Charts</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="https://abhi-s-03.github.io/Spotify-Clone/images/7.png" />
+          <h4>Hot Hits India</h4>
+          <p>Trending now</p>
+        </div>
+        <div class="card">
+          <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_in_default.jpg" />
+          <h4>Top 50 India</h4>
+          <p>Daily update</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Player Bar -->
+  <div class="player">
+    ▶ Now Playing
+  </div>
+</body>
+</html>
